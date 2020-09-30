@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  background: black;
+  font-size: 16px;
+}
+.content {
+  max-width: 60vw;
+  padding-top: 3rem;
+  display: flex;
+  margin: 0 auto; 
+}
+
+.shoe {
+  background: #61F0C8;
+  width: 20rem;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.shoe-img {
+  width: 300px;
+  position: relative;
+  left: -30px;
+  bottom: -80px;
+  border-radius: 20px;
+}
+
+.heading {
+  width: 60rem;
+  background: #ffffff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 3rem 30px;
+}
+
+.topic {
+  padding-bottom: 3rem;
+}
+
+#type {
+  color: #BBBBBB;
+}
